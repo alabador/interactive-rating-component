@@ -27,6 +27,7 @@ p {
     padding: 30px;
     height: 350px;
     width: 350px;
+    border-radius: 25px;
 }
 
 .button {
@@ -36,4 +37,10 @@ p {
     border: none;
     border-radius: 100%;
     
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
 }
