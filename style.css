@@ -22,7 +22,7 @@ h1 {
 
 p {
     font-size: 15px;
-    color: hsl(216, 12%, 54%);
+    color: var(--medium-gray);
     line-height: 1.5em;
 
 }
@@ -52,12 +52,12 @@ p {
 }
 
 .button {
-    background-color: hsl(213, 19%, 18%);
+    background-color: var(--dark-blue);
     width: 50px;
     height: 50px;
     border: none;
     border-radius: 100%;
-    color: hsl(216, 12%, 54%);
+    color: var(--medium-gray);
 }
 
 #button-container {
@@ -78,7 +78,7 @@ p {
     width: 100%;
     height: 40px;
     border: none;
-    background-color: hsl(25, 97%, 53%);
+    background-color: var(--orange);
     color: hsl(0, 0%, 100%);
     border-radius: 50px;
     font-family: inherit;
@@ -110,7 +110,7 @@ p {
 #rating {
     height: 40px;
     border: none;
-    background-color: hsl(25, 97%, 53%);
+    background-color: var(--orange);
     color: hsl(0, 0%, 100%);
     border-radius: 50px;
     font-family: inherit;
