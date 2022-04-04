@@ -91,8 +91,8 @@ p {
 /* styles for thank you state */
 
 #thank-you {
-    /* display: none; */
     display: flex;
+    /* display: none; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -104,16 +104,18 @@ p {
 
 #review-summary {
     display: flex;
-    width: 40%;
+    width: 100%;
+    justify-content: center;
 }
 
 #rating {
-    height: 40px;
+    margin: 40px 0;
+    height: 2em;
+    padding: 0 15px; 
     border: none;
-    background-color: var(--orange);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--dark-blue);
+    color: var(--orange);
     border-radius: 50px;
     font-family: inherit;
-    font-weight: 500;
     font-size: 15px;
 }
