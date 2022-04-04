@@ -44,15 +44,29 @@ p {
     padding: 40px;
     /* height: 375px; */
     max-width: 350px;
-    min-width: 250px;
+    min-width: 300px;
     border-radius: 25px;
 }
 
 @media screen and (max-width: 480px) {
     .container {
-        min-width: 80vw;
         margin: 0 10vw;
-        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        margin: 0 10vw;
+        min-width: 250px;
+    }
+
+    .button {
+        width: 25px;
+        height: 25px;
+    }
+
+    #button-container {
+        margin: 40px 0;
     }
 }
 
