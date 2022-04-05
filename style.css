@@ -68,6 +68,17 @@ p {
     color: var(--medium-gray);
 }
 
+.button:hover {
+    background-color: var(--medium-gray);
+    color: white;
+}
+
+.button:focus {
+    background-color: var(--orange);
+    color: white;
+}
+
+
 #button-container {
     display: flex;
     justify-content: space-between;
