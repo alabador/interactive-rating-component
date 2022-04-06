@@ -7,9 +7,11 @@ const mediumGray = styles.getPropertyValue('--medium-gray');
 const darkBlue = styles.getPropertyValue('--dark-blue');
 
 
-// for (let button of buttons) {    
-//     button.addEventListener('click', function() {
-//         button.style.backgroundColor = `${orange}`;
-//         button.style.color = '#ffffff'
-//     })
-// } 
+for (let button of buttons) {    
+    button.addEventListener('click', function() {
+
+        
+        button.style.backgroundColor = `${orange}`;
+        button.style.color = '#ffffff'
+    })
+} 

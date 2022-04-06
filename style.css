@@ -73,10 +73,10 @@ p {
     color: white;
 }
 
-.button:focus {
+/* .button:focus {
     background-color: var(--orange);
     color: white;
-}
+} */
 
 
 #button-container {
