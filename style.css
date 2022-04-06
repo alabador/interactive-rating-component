@@ -69,6 +69,17 @@ p {
     cursor: pointer;
 }
 
+.orange {
+    background-color: var(--orange);
+    color: white;
+}
+
+.dark-blue {
+    background-color: var(--dark-blue);
+    color: var(--medium-gray);
+}
+
+
 /* .button:hover {
     background-color: var(--medium-gray);
     color: white;

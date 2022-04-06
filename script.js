@@ -13,31 +13,19 @@ const mediumGray = styles.getPropertyValue('--medium-gray');
 const darkBlue = styles.getPropertyValue('--dark-blue');
 
 
-
 for (let button of buttons) {    
     button.addEventListener('click', function() {
         // console.log(getComputedStyle(button).backgroundColor);
-        if (getComputedStyle(button).backgroundColor == mediumGray) {
-            button.style.backgroundColor = orange;
-            button.style.color = '#ffffff';
-        }
-
-        else if (getComputedStyle(button).backgroundColor == orange) {
-            button.style.backgroundColor = darkBlue;
-            button.style.color = mediumGray;
-        }
-
-        // if (`'${getComputedStyle(button).backgroundColor}'` == darkBlue.trim()) {
-        //     console.log('this works');
-        //     button.style.backgroundColor = `${orange}`;
-        //     button.style.color = '#ffffff'
+        // if (getComputedStyle(button).backgroundColor == darkBlue) {
+        //     button.style.backgroundColor = orange;
+        //     button.style.color = '#ffffff';
         // }
 
-        // else {
-        //     console.log('this does not work');
+        // else if (getComputedStyle(button).backgroundColor == orange) {
+        //     button.style.backgroundColor = darkBlue;
+        //     button.style.color = mediumGray;
         // }
 
-        // button.style.backgroundColor = `${orange}`;
-        // button.style.color = '#ffffff'
+        button.classList.toggle('orange');
     })
 } 
