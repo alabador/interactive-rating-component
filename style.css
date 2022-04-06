@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
 :root {
-    --orange: hsl(25, 97%, 53%);
-    --medium-gray: hsl(216, 12%, 54%);
-    --dark-blue: hsl(213, 19%, 18%);
+    --orange:rgb(251, 116, 19);
+    --medium-gray:rgb(124, 135, 152);
+    --dark-blue:rgb(37, 45, 55);
 }
 
 body {
@@ -66,6 +66,7 @@ p {
     border: none;
     border-radius: 100%;
     color: var(--medium-gray);
+    cursor: pointer;
 }
 
 .button:hover {
