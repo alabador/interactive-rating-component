@@ -19,7 +19,6 @@ for (let button of buttons) {
         });
         //adds active state to current button
         e.target.classList.add('orange');
-
     })
 } 
 
