@@ -69,10 +69,10 @@ p {
     cursor: pointer;
 }
 
-.button:hover {
+/* .button:hover {
     background-color: var(--medium-gray);
     color: white;
-}
+} */
 
 /* .button:focus {
     background-color: var(--orange);
