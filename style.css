@@ -69,6 +69,11 @@ p {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: var(--medium-gray);
+    color: white;
+}
+
 .orange {
     background-color: var(--orange);
     color: white;
@@ -78,17 +83,6 @@ p {
     background-color: var(--dark-blue);
     color: var(--medium-gray);
 }
-
-
-/* .button:hover {
-    background-color: var(--medium-gray);
-    color: white;
-} */
-
-/* .button:focus {
-    background-color: var(--orange);
-    color: white;
-} */
 
 
 #button-container {
@@ -105,19 +99,24 @@ p {
     width: 100%;
 }
 
-#submit {
+.submit {
     width: 100%;
     height: 40px;
     border: none;
     background-color: var(--orange);
-    color: hsl(0, 0%, 100%);
+    color: white;
     border-radius: 50px;
     font-family: inherit;
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
 }
 
+.submit-active {
+    background-color: white;
+    color: var(--orange);
+}
 
 /* styles for thank you state */
 
