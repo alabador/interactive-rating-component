@@ -1,6 +1,8 @@
 //button variables
 const buttons = document.querySelectorAll('#button-container .button');
 const submit = document.querySelector('.submit');
+const rate = document.querySelector('#rate-us');
+const thanks = document.querySelector('#thank-you');
 
 // get and set style declarations from css
 const styles = window.getComputedStyle(document.body);
@@ -21,7 +23,8 @@ for (let button of buttons) {
     })
 } 
 
+
 submit.addEventListener('click', function(e) {
-    console.log(submit.classList);
-    e.target.classList.add('submit-active');
+    rate.style.display = "none";
+    thanks.style.display= "flex";
 })
