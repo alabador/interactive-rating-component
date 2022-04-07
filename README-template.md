@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshots
 
-![/images/project-screenshot](./screenshot.jpg)
-![/images/project-screenshot-2](./screenshot.jpg)
+![Leave a Review Screen](/images/project-screenshot.png)
+![Thank You Screen](/images/project-screenshot.png-2)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/alabador/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://alabador.github.io/interactive-rating-component/)
+- Solution URL: [https://github.com/alabador/interactive-rating-component](https://github.com/alabador/interactive-rating-component)
+- Live Site URL: [https://alabador.github.io/interactive-rating-component/](https://alabador.github.io/interactive-rating-component/)
 
 ## My process
 
@@ -43,8 +43,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- JavaScript 
-- [Styled Components](https://styled-components.com/) - For styles
+- JavaScript
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -62,7 +61,7 @@ I also shoehorned my self into a certain way of getting my code to work. I shoul
 
 ## Author
 
-- Website - [Austin Labador](https://www.your-site.com)
+- Website - [Austin Labador](https://austinlabador.com/)
 - Frontend Mentor - [@alabador](https://www.frontendmentor.io/profile/alabador)
 
 ## Acknowledgments
