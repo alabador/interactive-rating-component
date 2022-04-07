@@ -54,6 +54,8 @@ For future projects, I want to keep developing my understanding of for...of loop
 
 I also shoehorned my self into a certain way of getting my code to work. I should have stepped back and seen it from a different perspective. Doing this saved me some time, as I realized I was doing an unncessarily complicated solution, and instead used class lists. 
 
+There's one thing I'm still not completely satisfied with though. The interaction with the hover state and active state on the button is not too smooth. It only removes the hover state after the cursor is moved. Hopefully I can eventually figure out a different way to make this smoother.
+
 ### Useful resources
 
 - [Disabling Hover effect in JS](https://stackoverflow.com/questions/26754497/css-disable-hover-effect) - This helped me figure out how to disable the hover effect on my buttons. 
