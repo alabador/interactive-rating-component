@@ -17,12 +17,16 @@ for (let button of buttons) {
         //iterates through buttons and removes active state
         buttons.forEach(button => {
             button.classList.remove('orange');
+            button.classList.remove('no-hover');
         });
+        //disables the clicked button from being affected by hover state
+        e.target.classList.add('no-hover');
         //adds active state to current button
         e.target.classList.add('orange');
         //saves the value of the rating selected
         value = button.value;
         ratingValue.innerText = value;
+        //re-enables the submit button after clicking on a rating number
         submit.disabled = false;
     })
 } 
@@ -31,4 +35,5 @@ for (let button of buttons) {
 submit.addEventListener('click', function(e) {
     rate.style.display = "none";
     thanks.style.display= "flex";
+    thanks.classList.add('flip-in-hor-bottom');
 })
