@@ -54,11 +54,6 @@ p {
     }
 }
 
-
-#rate-us {
-    /* display: none; */
-}
-
 .button {
     background-color: var(--dark-blue);
     width: 50px;
@@ -118,6 +113,12 @@ p {
     color: var(--orange);
 }
 
+.submit:disabled {
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: not-allowed;
+}
+
 /* styles for thank you state */
 
 #thank-you {
@@ -134,7 +135,6 @@ p {
 
 #review-summary {
     display: inline-block;
-    width: 60%;
     margin: 40px auto;
     text-align: center;
 }

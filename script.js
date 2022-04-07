@@ -20,8 +20,10 @@ for (let button of buttons) {
         });
         //adds active state to current button
         e.target.classList.add('orange');
+        //saves the value of the rating selected
         value = button.value;
         ratingValue.innerText = value;
+        submit.disabled = false;
     })
 } 
 
